@@ -12,7 +12,7 @@ export default function Projects() {
                 <a href="/work/studiomega/"  data-barba="HomeTransition">Studio<br />Mega</a>
               </div>
             </li>
-            <li className="projectsLi isHovered" data-barba="HomeTransition">
+            <li className="projectsLi" data-barba="HomeTransition">
               <div className="projectContainer">
                 <a href="/work/thebrigade/" data-barba="HomeTransition">The<br />Brigade</a>
               </div>
