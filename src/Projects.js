@@ -3,6 +3,7 @@ import './Projects.css';
 
 export default function Projects() {
   return (
+    <div className="projects-main">
     <div className="stagePerspective parallaxPerspective perspective-origin-tt-bb">
       <div className="stageContainer" style={{ opacity: 1, height: '2327px' }}>
         <main className="stage" style={{ transform: 'translate3d(0px, 0px, 0px)' }}>
@@ -51,5 +52,7 @@ export default function Projects() {
         </main>
       </div>
     </div>
+    </div>
+
   )
 }

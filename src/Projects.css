@@ -309,3 +309,7 @@
     perspective-origin: 50% var(--perspective-origin-y);
     will-change: perspective-origin;
 }
+
+.projects-main {
+    margin-top: -380px;
+}
