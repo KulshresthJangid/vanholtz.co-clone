@@ -1,8 +1,52 @@
 .header{
     position: -webkit-sticky;
-    position: relative;
-    background-color: yellow;
-    padding: 50px;
+    position: absolute;
+    background-color: transparent;
     font-size: 20px;
-    bottom: -475px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 1272px;
+    bottom: 2px;
+}
+
+.link-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.header li{
+    list-style: none;
+}
+
+.logo {
+    width: 49px;
+    padding: 40px;
+    font-family: 'Druk Wide Bold Bold';
+    font-size: 33px;
+    line-height: 28px;
+}
+
+.logo:hover {
+    transform: rotate3d(0, 1, 0, -35deg) translateZ(0) scale(1.2, 1);
+    transition-duration: 1s;
+
+    @media screen and (max-width: 767px) {
+        transition: transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    a {
+
+        @supports ((-webkit-text-stroke: 3px #151515) or (text-stroke: 3px #151515)) {
+            -webkit-text-stroke: 0px #151515;
+            text-stroke: 0px #151515;
+        }
+
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+
 }
