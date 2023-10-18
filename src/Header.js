@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className='header'>
             <div className="logo">
-                VAN HOLTZ CO.
+               <a href="">VAN HOLTZ CO.</a> 
             </div>
             <div className="links">
                 <div className="link-right">
@@ -26,14 +26,29 @@ export default function Header() {
                                 <strong>about</strong>
                             </li>
                             <li className="journal-li">
-                                <span>01</span>
+                                <span>02</span>
                                 <strong>journal</strong>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div className="link-left">
-
+                    <nav className="nav-links">
+                        <ul>
+                            <li className="about-li">
+                                <span>01</span>
+                                <strong>about</strong>
+                            </li>
+                            <li className="journal-li">
+                                <span>02</span>
+                                <strong>journal</strong>
+                            </li>
+                            <li className="about-li">
+                                <span>01</span>
+                                <strong>about</strong>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
